@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>CV Diego Osorio</title>
+    <script src="https://unpkg.com/i18next@23.8.8/dist/umd/i18next.min.js"></script>
+    <script defer src="i18n.js"></script>
+    <title>Diego Osorio</title>
 </head>
 <body>
     <header class="section">
@@ -14,116 +16,109 @@
     </header>
     <div class="container">
         <section class="section">
-            <h2>Objetivo Profesional</h2>
-            <p>
-                Busco una oportunidad en desarrollo web para seguir aprendiendo y aplicando 
-                mis conocimientos en la construcción de experiencias digitales eficientes.
+            <h2 data-i18n="objectives.title"></h2>
+            <p class="push" data-i18n="objectives.description">
             </p>
         </section>
         
         <section class="section">
-            <h2>Perfil Profesional</h2>
-            <p>
-                Desarrollador web junior con enfoque en la creación de interfaces intuitivas 
-                y experiencias digitales atractivas. Con conocimientos en HTML, CSS, JavaScript, 
-                React y Tailwind CSS, y en constante aprendizaje para mejorar mis habilidades. 
-                Capacidad para desarrollar y gestionar proyectos web, abarcando desde el diseño 
-                de interfaces hasta la optimización digital.
+            <h2 data-i18n="profile.title"></h2>
+            <p class="push" data-i18n="profile.description">
             </p>
         </section>
         
         <section class="section">
-            <h2>Habilidades Técnicas</h2>
-            <ul>
-                <li><strong>Desarrollo Web:</strong> JavaScript, HTML5, CSS3, Bootstrap, Tailwind CSS, React</li>
-                <li><strong>Control de Versiones:</strong> Git, GitHub</li>
-                <li><strong>Diseño Web y UX:</strong> Responsive Design, experiencia de usuario (UX)</li>
-                <li><strong>Gestión y Configuración Web:</strong> Hosting, dominios, correos profesionales</li>
-                <li><strong>Edición y Diseño Digital:</strong> Banners, retoques fotográficos, branding, logotipos</li>
-                <li><strong>Otros:</strong> JSON, API REST (nociones básicas)</li>
+            <h2 data-i18n="technical.title"></h2>
+            <ul class="push">
+                <li><strong data-i18n="technical.webDev.title"></strong><span data-i18n="technical.webDev.description"></span></li>
+                <li><strong data-i18n="technical.versionControl.title"></strong> <span data-i18n="technical.versionControl.description"></span></li>
+                <li><strong data-i18n="technical.design.title"></strong> <span data-i18n="technical.design.description"></span></li>
+                <li><strong data-i18n="technical.webConf.title"></strong> <span data-i18n="technical.webConf.description"></span></li>
+                <li><strong data-i18n="technical.digital.title"></strong> <span data-i18n="technical.digital.description"></span></li>
+                <li><strong data-i18n="technical.others.title"></strong> <span data-i18n="technical.others.description"></span></li>
             </ul>
         </section>
     
         <section class="section">
-            <h2>Habilidades Blandas</h2>
-            <ul>
-                <li>Capacidad de aprendizaje autónomo</li>
-                <li>Resolución de problemas</li>
-                <li>Adaptabilidad y pensamiento crítico</li>
+            <h2 data-i18n="soft.title"></h2>
+            <ul class="push">
+                <li data-i18n="soft.one"></li>
+                <li data-i18n="soft.two"></li>
+                <li data-i18n="soft.three"></li>
             </ul>
         </section>
         
         <section class="section">
-            <h2>Formación y Cursos</h2>
-            <p><a href="https://dieosorio.github.io/" target="_blank">Ver diplomas</a></p>
+            <h2 data-i18n="courses.title"></h2>
+            <p><a href="https://dieosorio.github.io/" target="_blank" data-i18n="courses.see"></a></p>
             <ul>
-                <h3><strong>Django y Desarrollo Web:</strong></h3>
+                <h3><strong data-i18n="courses.course-1.title"></strong></h3>
                 <ul class="push">
-                    <li>Advanced Django: Building a Blog</li>
-                    <li>Building Web Applications in Django</li>
-                    <li>Django Features and Libraries</li>
-                    <li>Using JavaScript and JSON in Django</li>
-                    <li>Web Application Technologies and Django</li>
-                    <li>Django for Everybody</li>
+                    <li data-i18n="courses.course-1.subject.one"></li>                    
+                    <li data-i18n="courses.course-1.subject.two"></li>                    
+                    <li data-i18n="courses.course-1.subject.three"></li>                    
+                    <li data-i18n="courses.course-1.subject.four"></li>                    
+                    <li data-i18n="courses.course-1.subject.five"></li>                    
+                    <li data-i18n="courses.course-1.subject.six"></li>                    
                 </ul>
-                <h3><strong>Diseño y UX:</strong></h3>
+                <h3><strong data-i18n="courses.course-2.title"></strong></h3>
                 <ul class="push">
-                    <li>Foundations of User Experience (UX) Design</li>
-                    <li>Advanced Styling with Responsive Design</li>
-                    <li>Interactivity with JavaScript</li>
-                    <li>Introduction to HTML5</li>
-                    <li>Introduction to CSS3</li>
+                    <li data-i18n="courses.course-2.subject.one"></li>
+                    <li data-i18n="courses.course-2.subject.two"></li>
+                    <li data-i18n="courses.course-2.subject.three"></li>
+                    <li data-i18n="courses.course-2.subject.four"></li>
+                    <li data-i18n="courses.course-2.subject.five"></li>
                 </ul>
-                <h3><strong>Programación:</strong></h3>
+                <h3><strong data-i18n="courses.course-3.title"></strong></h3>
                 <ul class="push">
-                    <li>Crash Course on Python</li>
-                    <li>Java Programming: Arrays, Lists, and Structured Data</li>
-                    <li>Java Programming: Build a Recommendation System</li>
-                    <li>Java Programming: Principles of Software Design</li>
-                    <li>Java Programming: Solving Problems with Software</li>
+                    <li data-i18n="courses.course-3.subject.one"></li>
+                    <li data-i18n="courses.course-3.subject.two"></li>
+                    <li data-i18n="courses.course-3.subject.three"></li>
+                    <li data-i18n="courses.course-3.subject.four"></li>
+                    <li data-i18n="courses.course-3.subject.five"></li>
                 </ul>
-                <h3><strong>Control de Versiones y Colaboración:</strong></h3>
+                <h3><strong data-i18n="courses.course-4.title"></strong></h3>
                 <ul class="push">
-                    <li>Introduction to Git and GitHub</li>
+                    <li data-i18n="courses.course-4.subject.one"></li>
                 </ul>
             </ul>            
         </section>
         
         <section class="section">
-            <h2>Proyectos Personales</h2>
-            <p><a href="https://vestigiorestauraciones.com" target="_blank">Vestigio Restauraciones</a></p>
-            <ul>
-                <li>Desarrollo completo del sitio web (HTML, CSS y JavaScript).</li>
-                <li>Gestión de redes sociales y estrategia digital.</li>
-                <li>Diseño de branding, logotipo y material gráfico.</li>
-            </ul>
-        </section>
-        
-        <section class="section">
-            <h2>Experiencia Laboral</h2>
-            <h3><strong>Vestigio Restauraciones (2024 - Actualidad)</strong></h3>
+            <h2 data-i18n="personal.title"></h2>
+            <p><a href="https://vestigiorestauraciones.com" target="_blank" data-i18n="personal.see"></a></p>
             <ul class="push">
-                <li>Creación, mantenimiento y diseño del sitio web.</li>
-                <li>Gestión de redes sociales y presencia digital.</li>
-                <li>Desarrollo de la plataforma en HTML, CSS y JavaScript.</li>
-                <li>Configuración y gestión de hosting y correos profesionales.</li>
+                <li data-i18n="personal.subject.one"></li>
+                <li data-i18n="personal.subject.two"></li>
+                <li data-i18n="personal.subject.three"></li>
             </ul>
         </section>
         
         <section class="section">
-            <h2>Idiomas</h2>
-            <ul>
-                <li>Español: Nativo</li>
-                <li>Inglés: Avanzado (nivel interactivo, aprendizaje autodidacta)</li>
+            <h2 data-i18n="work.title"></h2>
+            <h3><strong data-i18n="work.place.title"></strong></h3>
+            <ul class="push">
+                <li data-i18n="work.place.subject.one"></li>
+                <li data-i18n="work.place.subject.two"></li>
+                <li data-i18n="work.place.subject.three"></li>
+                <li data-i18n="work.place.subject.four"></li>
             </ul>
         </section>
         
         <section class="section">
-            <h2>Educación</h2>
-            <ul>
-                <li>Bachillerato</li>
+            <h2 data-i18n="languages.title"></h2>
+            <ul class="push">
+                <li data-i18n="languages.one"></li>
+                <li data-i18n="languages.two"></li>
             </ul>
         </section>
-    </div> 
+        
+        <section class="section">
+            <h2 data-i18n="education.title"></h2>
+            <ul class="push">
+                <li data-i18n="education.one"></li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>

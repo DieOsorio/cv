@@ -1,0 +1,114 @@
+{
+    "objectives": {
+        "title": "Objetivo Profesional",
+        "description": "Busco una oportunidad en desarrollo web para seguir aprendiendo y aplicando mis conocimientos en la construcción de experiencias digitales eficientes."
+    },
+    "profile": {
+        "title": "Perfil Profesional",
+        "description": "Desarrollador web junior con enfoque en la creación de interfaces intuitivas y experiencias digitales atractivas. Con conocimientos en HTML, CSS, JavaScript, React y Tailwind CSS, y en constante aprendizaje para mejorar mis habilidades. Capacidad para desarrollar y gestionar proyectos web, abarcando desde el diseño de interfaces hasta la optimización digital."
+    },
+    "technical": {
+        "title": "Habilidades Técnicas",   
+        "webDev":{
+            "title": "Desarrollo Web:",
+            "description": "JavaScript, HTML5, CSS3, Bootstrap, Tailwind CSS, React"
+        },
+        "versionControl":{
+            "title": "Control de Versiones:",
+            "description": "Git, GitHub"
+        },
+        "design":{
+            "title": "Diseño Web y UX:",
+            "description": "Responsive Design, experiencia de usuario (UX)"
+        },
+        "webConf":{
+            "title": "Gestión y Configuración Web:",
+            "description": "Hosting, dominios, correos profesionales"
+        },
+        "digital":{
+            "title": "Edición y Diseño Digital:",
+            "description": "Banners, retoques fotográficos, branding, logotipos"
+        },
+        "others":{
+            "title": "Otros:",
+            "description": "JSON, API REST (nociones básicas)"
+        }        
+    },
+    "soft": {
+        "title": "Habilidades Blandas",
+        "one":"Capacidad de aprendizaje autónomo",
+        "two":"Resolución de problemas",
+        "three":"Adaptabilidad y pensamiento crítico"
+    },
+    "courses": {
+        "title": "Formación y Cursos",
+        "see": "Ver certificados",
+        "course-1": {
+            "title": "Django y Desarrollo Web",
+            "subject": {
+                "one": "Advanced Django: Building a Blog",
+                "two": "Building Web Applications in Django",
+                "three": "Django Features and Libraries",
+                "four": "Using JavaScript and JSON in Django",
+                "five": "Web Application Technologies and Django",
+                "six": "Django for Everybody"
+            }
+        },
+        "course-2": {
+            "title": "Diseño y UX",
+            "subject": {
+                "one": "Foundations of User Experience (UX) Design",
+                "two": "Advanced Styling with Responsive Design",
+                "three": "Interactivity with JavaScript",
+                "four": "Introduction to HTML5",
+                "five": "Introduction to CSS3"
+            }
+        },
+        "course-3": {
+            "title": "Programación",
+            "subject": {
+                "one": "Crash Course on Python",
+                "two": "Java Programming: Arrays, Lists, and Structured Data",
+                "three": "Java Programming: Build a Recommendation System",
+                "four": "Java Programming: Principles of Software Design",
+                "five": "Java Programming: Solving Problems with Software"
+            }
+        },
+        "course-4": {
+            "title": "Control de Versiones y Colaboración",
+            "subject": {
+                "one": "Introduction to Git and GitHub"
+            }
+        }
+    },
+    "personal":{
+        "title": "Proyectos Personales",
+        "see": "Vestigio Restauraciones",
+        "subject": {
+            "one": "Desarrollo completo del sitio web (HTML, CSS y JavaScript).",
+            "two": "Gestión de redes sociales y estrategia digital.",
+            "three": "Diseño de branding, logotipo y material gráfico."
+        }
+    },
+    "work":{
+        "title": "Experiencia Laboral",
+        "place": {
+            "title": "Vestigio Restauraciones (2024 - Actualidad)",
+            "subject": {
+                "one": "Creación, mantenimiento y diseño del sitio web.",
+                "two": "Gestión de redes sociales y presencia digital.",
+                "three": "Desarrollo de la plataforma en HTML, CSS y JavaScript.",
+                "four": "Configuración y gestión de hosting y correos profesionales."
+            }
+        }        
+    },
+    "languages":{
+        "title": "Idiomas",
+        "one": "Español: Nativo",
+        "two": "Inglés: Avanzado (nivel interactivo, aprendizaje autodidacta)"
+    },
+    "education": {
+        "title": "Educación",
+        "one": "Bachillerato"
+    }
+}

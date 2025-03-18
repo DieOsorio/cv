@@ -1,0 +1,114 @@
+{
+    "objectives": {
+        "title": "Professional Objectives",
+        "description": "I'm seeking an opportunity in web development to continue learning and applying my knowledge in building efficient digital experiences."
+    },
+    "profile": {
+        "title": "Professional Profile",
+        "description": "Junior web developer focused on creating intuitive interfaces and engaging digital experiences. Proficient in HTML, CSS, JavaScript, React, and Tailwind CSS, and constantly learning to enhance my skills. Skilled in developing and managing web projects, ranging from interface design to digital optimization."
+    },
+    "technical": {
+        "title": "Technical Skills",
+        "webDev":{
+            "title": "Web Development:",
+            "description": "JavaScript, HTML5, CSS3, Bootstrap, Tailwind CSS, React"
+        },
+        "versionControl":{
+            "title": "Version Control:",
+            "description": "Git, GitHub"
+        },
+        "design":{
+            "title": "Web and UX Design:",
+            "description": "Responsive Design, User Experience (UX)"
+        },
+        "webConf":{
+            "title": "Web Management and Configuration:",
+            "description": "Hosting, domains, professional emails"
+        },
+        "digital":{
+            "title": "Digital Editing and Design:",
+            "description": "Banners, photo retouching, branding, logos"
+        },
+        "others":{
+            "title": "Other:",
+            "description": "JSON, REST API (basic concepts)"
+        }        
+    },
+    "soft": {
+        "title": "Soft Skills",
+        "one":"Ability for autonomous learning",
+        "two":"Problem Solving",
+        "three":"Adaptability and Critical Thinking"
+    },
+    "courses": {
+        "title": "Training and Courses",
+        "see": "See certificates",
+        "course-1": {
+            "title": "Web Development and Django",
+            "subject": {
+                "one": "Advanced Django: Building a Blog",
+                "two": "Building Web Applications in Django",
+                "three": "Django Features and Libraries",
+                "four": "Using JavaScript and JSON in Django",
+                "five": "Web Application Technologies and Django",
+                "six": "Django for Everybody"
+            }
+        },
+        "course-2": {
+            "title": "Design and UX",
+            "subject": {
+                "one": "Foundations of User Experience (UX) Design",
+                "two": "Advanced Styling with Responsive Design",
+                "three": "Interactivity with JavaScript",
+                "four": "Introduction to HTML5",
+                "five": "Introduction to CSS3"
+            }
+        },
+        "course-3": {
+            "title": "Programming",
+            "subject": {
+                "one": "Crash Course on Python",
+                "two": "Java Programming: Arrays, Lists, and Structured Data",
+                "three": "Java Programming: Build a Recommendation System",
+                "four": "Java Programming: Principles of Software Design",
+                "five": "Java Programming: Solving Problems with Software"
+            }
+        },
+        "course-4": {
+            "title": "Version Control and Collaboration",
+            "subject": {
+                "one": "Introduction to Git and GitHub"
+            }
+        }
+    },
+    "personal":{
+        "title": "Personal Projects",
+        "see": "Vestigio Restauraciones",
+        "subject": {
+            "one": "Full website development (HTML, CSS, and JavaScript).",
+            "two": "Social media management and digital strategy.",
+            "three": "Branding design, logo, and graphic materials."
+        }
+    },
+    "work":{
+        "title": "Work Experience",
+        "place": {
+            "title": "Vestigio Restauraciones (2024 - Present)",
+            "subject": {
+                "one": "Website creation, maintenance, and design.",
+                "two": "Social media management and digital presence.",
+                "three": "Platform development using HTML, CSS, and JavaScript.",
+                "four": "Hosting and professional email setup and management."
+            }
+        }        
+    },
+    "languages":{
+        "title": "Languages",
+        "one": "Spanish: Native",
+        "two": "English: Advanced (interactive level, self-taught learning)"
+    },
+    "education": {
+        "title": "Education",
+        "one": "High School Diploma"
+    }
+}
