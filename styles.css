@@ -64,3 +64,7 @@ a:hover {
 .push {
     margin-left: 2em;
 }
+
+.lineHeight {
+    line-height: 1.6em;
+}
