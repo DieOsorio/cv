@@ -9,36 +9,36 @@
     },
     "technical": {
         "title": "Technical Skills",
-        "webDev":{
+        "webDev": {
             "title": "Web Development:",
             "description": "JavaScript, HTML5, CSS3, Bootstrap, Tailwind CSS, React"
         },
-        "versionControl":{
+        "versionControl": {
             "title": "Version Control:",
             "description": "Git, GitHub"
         },
-        "design":{
+        "design": {
             "title": "Web and UX Design:",
             "description": "Responsive Design, User Experience (UX)"
         },
-        "webConf":{
+        "webConf": {
             "title": "Web Management and Configuration:",
             "description": "Hosting, domains, professional emails"
         },
-        "digital":{
+        "digital": {
             "title": "Digital Editing and Design:",
             "description": "Banners, photo retouching, branding, logos"
         },
-        "others":{
+        "others": {
             "title": "Other:",
             "description": "JSON, REST API (basic concepts)"
-        }        
+        }
     },
     "soft": {
         "title": "Soft Skills",
-        "one":"Ability for autonomous learning",
-        "two":"Problem Solving",
-        "three":"Adaptability and Critical Thinking"
+        "one": "Ability for autonomous learning",
+        "two": "Problem Solving",
+        "three": "Adaptability and Critical Thinking"
     },
     "courses": {
         "title": "Training and Courses",
@@ -81,7 +81,7 @@
             }
         }
     },
-    "personal":{
+    "personal": {
         "title": "Personal Projects",
         "see": "Vestigio Restauraciones",
         "subject": {
@@ -90,7 +90,7 @@
             "three": "Branding design, logo, and graphic materials."
         }
     },
-    "work":{
+    "work": {
         "title": "Work Experience",
         "place": {
             "title": "Vestigio Restauraciones (2024 - Present)",
@@ -100,9 +100,9 @@
                 "three": "Platform development using HTML, CSS, and JavaScript.",
                 "four": "Hosting and professional email setup and management."
             }
-        }        
+        }
     },
-    "languages":{
+    "languages": {
         "title": "Languages",
         "one": "Spanish: Native",
         "two": "English: Advanced (interactive level, self-taught learning)"
@@ -110,5 +110,12 @@
     "education": {
         "title": "Education",
         "one": "High School Diploma"
+    },
+    "featured": {
+        "title": "Featured Projects",
+        "tuneBridge": {
+            "title": "TuneBridge",
+            "description": "TuneBridge is a social network designed for musicians. Users can create personal and group profiles, share posts, chat, and showcase or discover music projects. The platform encourages collaboration and community building among artists.\n\nDeveloped with Vite, React.js, Supabase, Tailwind CSS, and React Query, TuneBridge offers real-time chat, project and group management, and a modern, responsive interface. Musicians can easily connect, share their work, and collaborate on new projects in a dedicated online space."
+        }
     }
 }

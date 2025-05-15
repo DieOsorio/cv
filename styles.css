@@ -33,6 +33,12 @@ h2 {
     border-radius: 5px;
 }
 
+h2[data-i18n]::before {
+    content: attr(data-i18n-icon) ' ';
+    font-size: 1.1em;
+    margin-right: 0.2em;
+}
+
 h3 {
     font-size: 1.1em;
     background-color: #e1e8ef;
@@ -67,4 +73,54 @@ a:hover {
 
 .lineHeight {
     line-height: 1.6em;
+}
+
+.project {
+    margin-left: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #eee;
+    border-radius: 5px;
+    padding: 15px 20px;
+    color: #333;
+    box-shadow: none;
+}
+
+.project h3 {
+    background: none;
+    padding: 0;
+    margin: 0 0 8px 0;
+    color: #6b72c8;
+    font-size: 1.1em;
+}
+
+.project p {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.tagline {
+    font-size: 1.1em;
+    color: #6b72c8;
+    margin: 8px 0 0 0;
+    font-weight: 500;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin: 10px 0 0 0;
+    font-size: 1em;
+}
+
+.contact-info a {
+    color: #0077cc;
+    font-weight: bold;
+}
+
+.section-divider {
+    border-bottom: 2px solid #e1e8ef;
+    margin: 30px 0 0 0;
 }

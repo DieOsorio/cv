@@ -90,6 +90,13 @@
             "three": "Diseño de branding, logotipo y material gráfico."
         }
     },
+    "featured": {
+        "title": "Proyectos Destacados",
+        "tuneBridge": {
+            "title": "TuneBridge",
+            "description": "TuneBridge es una red social diseñada para músicos. Permite crear perfiles personales y de grupo, compartir publicaciones, chatear y mostrar o descubrir proyectos musicales. La plataforma fomenta la colaboración y la construcción de comunidad entre artistas.\n\nDesarrollada con Vite, React.js, Supabase, Tailwind CSS y React Query, TuneBridge ofrece chat en tiempo real, gestión de proyectos y grupos, e interfaz moderna y responsiva. Los músicos pueden conectar, compartir su trabajo y colaborar en nuevos proyectos en un espacio dedicado."
+        }
+    },
     "work":{
         "title": "Experiencia Laboral",
         "place": {
