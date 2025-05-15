@@ -1,47 +1,47 @@
 {
     "objectives": {
         "title": "Professional Objectives",
-        "description": "I'm seeking an opportunity in web development to continue learning and applying my knowledge in building efficient digital experiences."
+        "description": "I'm looking for a frontend development opportunity where I can contribute to product development, grow as a developer, and continue building intuitive, efficient, and user-centered web applications."
     },
     "profile": {
         "title": "Professional Profile",
-        "description": "Junior web developer focused on creating intuitive interfaces and engaging digital experiences. Proficient in HTML, CSS, JavaScript, React, and Tailwind CSS, and constantly learning to enhance my skills. Skilled in developing and managing web projects, ranging from interface design to digital optimization."
+        "description": "Frontend Developer focused on building complete, user-centered web applications. I specialize in React, TailwindCSS, and Supabase, creating modern UIs with solid logic, clean structure, and good performance. I enjoy crafting products from scratch, where functionality and design go hand in hand. My latest project, TuneBridge, is a full-featured social platform for musicians, including real-time chat, custom profiles, and content sharing — all built independently using modern tools. I value clean, maintainable code, thoughtful UX, and continuous learning. I'm also quick to adopt new technologies when needed."
     },
     "technical": {
         "title": "Technical Skills",
         "webDev": {
             "title": "Web Development:",
-            "description": "JavaScript, HTML5, CSS3, Bootstrap, Tailwind CSS, React"
+            "description": "JavaScript · HTML5 · CSS3 · Tailwind CSS · React · React Router · React Hook Form"
         },
         "versionControl": {
             "title": "Version Control:",
-            "description": "Git, GitHub"
+            "description": "Git · GitHub"
         },
         "design": {
             "title": "Web and UX Design:",
-            "description": "Responsive Design, User Experience (UX)"
+            "description": "Responsive design · User experience (UX) · Accessibility awareness"
         },
         "webConf": {
-            "title": "Web Management and Configuration:",
-            "description": "Hosting, domains, professional emails"
+            "title": "Backend / BaaS:",
+            "description": "Supabase (Auth · Realtime · Postgres) · REST APIs"
         },
         "digital": {
-            "title": "Digital Editing and Design:",
-            "description": "Banners, photo retouching, branding, logos"
+            "title": "Digital Design",
+            "description": "Photoshop · Branding · Logo design · Basic photo retouching"
         },
         "others": {
             "title": "Other:",
-            "description": "JSON, REST API (basic concepts)"
+            "description": "JSON"
         }
     },
     "soft": {
         "title": "Soft Skills",
-        "one": "Ability for autonomous learning",
-        "two": "Problem Solving",
-        "three": "Adaptability and Critical Thinking"
+        "one": "Self-directed learning",
+        "two": "Problem solving",
+        "three": "Adaptability · Critical thinking"
     },
     "courses": {
-        "title": "Training and Courses",
+        "title": "Training & Certifications",
         "see": "See certificates",
         "course-1": {
             "title": "Web Development and Django",
@@ -80,25 +80,17 @@
                 "one": "Introduction to Git and GitHub"
             }
         }
-    },
-    "personal": {
-        "title": "Personal Projects",
-        "see": "Vestigio Restauraciones",
-        "subject": {
-            "one": "Full website development (HTML, CSS, and JavaScript).",
-            "two": "Social media management and digital strategy.",
-            "three": "Branding design, logo, and graphic materials."
-        }
-    },
+    }, 
     "work": {
         "title": "Work Experience",
         "place": {
-            "title": "Vestigio Restauraciones (2024 - Present)",
+            "title": "Vestigio Restauraciones:",
+            "extra": "Founder & Web Developer 2024 - Present",
             "subject": {
-                "one": "Website creation, maintenance, and design.",
-                "two": "Social media management and digital presence.",
-                "three": "Platform development using HTML, CSS, and JavaScript.",
-                "four": "Hosting and professional email setup and management."
+                "one": "Designed and developed the business website (HTML, CSS, JavaScript).",
+                "two": "Managed hosting and professional email setup.",
+                "three": "Produced digital content for social media presence.",
+                "four": "Developed brand identity, including logo and visual elements."
             }
         }
     },
@@ -112,10 +104,33 @@
         "one": "High School Diploma"
     },
     "featured": {
-        "title": "Featured Projects",
-        "tuneBridge": {
-            "title": "TuneBridge",
-            "description": "TuneBridge is a social network designed for musicians. Users can create personal and group profiles, share posts, chat, and showcase or discover music projects. The platform encourages collaboration and community building among artists.\n\nDeveloped with Vite, React.js, Supabase, Tailwind CSS, and React Query, TuneBridge offers real-time chat, project and group management, and a modern, responsive interface. Musicians can easily connect, share their work, and collaborate on new projects in a dedicated online space."
-        }
+    "title": "Featured Projects",
+    "tuneBridge": {
+        "title": "TuneBridge",
+        "description": "TuneBridge is a social network designed for musicians. Users can create personal and group profiles, share posts, chat, and showcase or discover music projects. The platform encourages collaboration and community building among artists.\n\nDeveloped with Vite, React.js, Supabase, Tailwind CSS, and React Query, TuneBridge offers real-time chat, project and group management, and a modern, responsive interface. Musicians can easily connect, share their work, and collaborate on new projects in a dedicated online space.",
+        "stack": "Vite · React · Tailwind CSS · Supabase · React Query",
+        "highlights": {
+            "one": "Authentication and session management",
+            "two": "Real-time messaging using Supabase Channels",
+            "three": "Group and project management system",
+            "four": "Custom profile editing and user interaction",
+            "five": "Responsive design and smooth UI experience"
+        },
+        "link": "https://dieosorio.github.io/tunebridge"
+    },
+    "vestigio": {
+        "title": "Vestigio Restauraciones",
+        "description": "Vestigio is the website of my furniture restoration business. It presents my work through curated photo galleries and bilingual descriptions (English and Spanish). The site is lightweight, responsive, and customized to reflect the elegance and craft of the restoration process.\n\nBuilt with semantic HTML, modular CSS, and vanilla JavaScript, the site includes subtle animations, responsive layout, and localized content for a professional online presence.",
+        "stack": "HTML · CSS · JavaScript · i18n",
+        "highlights": {
+            "one": "Multilingual support (English / Spanish)",
+            "two": "Responsive and accessible design",
+            "three": "Galleries to showcase restoration work",
+            "four": "Fully static website hosted on GitHub Pages",
+            "five": "Custom branding, logo and styling"
+        },
+        "link": "https://dieosorio.github.io/vestigio"
     }
+}
+
 }

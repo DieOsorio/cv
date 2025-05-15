@@ -1,121 +1,135 @@
 {
-    "objectives": {
-        "title": "Objetivo Profesional",
-        "description": "Busco una oportunidad en desarrollo web para seguir aprendiendo y aplicando mis conocimientos en la construcción de experiencias digitales eficientes."
+  "objectives": {
+    "title": "Objetivos Profesionales",
+    "description": "Busco una oportunidad en desarrollo frontend donde pueda contribuir al desarrollo de productos, crecer como desarrollador y seguir creando aplicaciones web intuitivas, eficientes y centradas en el usuario."
+  },
+  "profile": {
+    "title": "Perfil Profesional",
+    "description": "Desarrollador Frontend enfocado en construir aplicaciones web completas y centradas en el usuario. Me especializo en React, TailwindCSS y Supabase, creando interfaces modernas con lógica sólida, estructura clara y buen rendimiento. Disfruto crear productos desde cero, donde la funcionalidad y el diseño van de la mano. Mi proyecto más reciente, TuneBridge, es una plataforma social completa para músicos, con chat en tiempo real, perfiles personalizados y compartición de contenido — todo desarrollado de forma independiente con herramientas modernas. Valoro el código limpio y mantenible, la experiencia de usuario pensada, y el aprendizaje constante. También me adapto rápido a nuevas tecnologías cuando es necesario."
+  },
+  "technical": {
+    "title": "Habilidades Técnicas",
+    "webDev": {
+      "title": "Desarrollo Web:",
+      "description": "JavaScript · HTML5 · CSS3 · Tailwind CSS · React · React Router · React Hook Form"
     },
-    "profile": {
-        "title": "Perfil Profesional",
-        "description": "Desarrollador web junior con enfoque en la creación de interfaces intuitivas y experiencias digitales atractivas. Con conocimientos en HTML, CSS, JavaScript, React y Tailwind CSS, y en constante aprendizaje para mejorar mis habilidades. Capacidad para desarrollar y gestionar proyectos web, abarcando desde el diseño de interfaces hasta la optimización digital."
+    "versionControl": {
+      "title": "Control de Versiones:",
+      "description": "Git · GitHub"
     },
-    "technical": {
-        "title": "Habilidades Técnicas",   
-        "webDev":{
-            "title": "Desarrollo Web:",
-            "description": "JavaScript, HTML5, CSS3, Bootstrap, Tailwind CSS, React"
-        },
-        "versionControl":{
-            "title": "Control de Versiones:",
-            "description": "Git, GitHub"
-        },
-        "design":{
-            "title": "Diseño Web y UX:",
-            "description": "Responsive Design, experiencia de usuario (UX)"
-        },
-        "webConf":{
-            "title": "Gestión y Configuración Web:",
-            "description": "Hosting, dominios, correos profesionales"
-        },
-        "digital":{
-            "title": "Edición y Diseño Digital:",
-            "description": "Banners, retoques fotográficos, branding, logotipos"
-        },
-        "others":{
-            "title": "Otros:",
-            "description": "JSON, API REST (nociones básicas)"
-        }        
+    "design": {
+      "title": "Diseño Web y UX:",
+      "description": "Diseño responsivo · Experiencia de usuario (UX) · Conciencia sobre accesibilidad"
     },
-    "soft": {
-        "title": "Habilidades Blandas",
-        "one":"Capacidad de aprendizaje autónomo",
-        "two":"Resolución de problemas",
-        "three":"Adaptabilidad y pensamiento crítico"
+    "webConf": {
+      "title": "Backend / BaaS:",
+      "description": "Supabase (Auth · Realtime · Postgres) · REST APIs"
     },
-    "courses": {
-        "title": "Formación y Cursos",
-        "see": "Ver certificados",
-        "course-1": {
-            "title": "Django y Desarrollo Web",
-            "subject": {
-                "one": "Advanced Django: Building a Blog",
-                "two": "Building Web Applications in Django",
-                "three": "Django Features and Libraries",
-                "four": "Using JavaScript and JSON in Django",
-                "five": "Web Application Technologies and Django",
-                "six": "Django for Everybody"
-            }
-        },
-        "course-2": {
-            "title": "Diseño y UX",
-            "subject": {
-                "one": "Foundations of User Experience (UX) Design",
-                "two": "Advanced Styling with Responsive Design",
-                "three": "Interactivity with JavaScript",
-                "four": "Introduction to HTML5",
-                "five": "Introduction to CSS3"
-            }
-        },
-        "course-3": {
-            "title": "Programación",
-            "subject": {
-                "one": "Crash Course on Python",
-                "two": "Java Programming: Arrays, Lists, and Structured Data",
-                "three": "Java Programming: Build a Recommendation System",
-                "four": "Java Programming: Principles of Software Design",
-                "five": "Java Programming: Solving Problems with Software"
-            }
-        },
-        "course-4": {
-            "title": "Control de Versiones y Colaboración",
-            "subject": {
-                "one": "Introduction to Git and GitHub"
-            }
-        }
+    "digital": {
+      "title": "Diseño Digital",
+      "description": "Photoshop · Branding · Diseño de logotipos · Retoque fotográfico básico"
     },
-    "personal":{
-        "title": "Proyectos Personales",
-        "see": "Vestigio Restauraciones",
-        "subject": {
-            "one": "Desarrollo completo del sitio web (HTML, CSS y JavaScript).",
-            "two": "Gestión de redes sociales y estrategia digital.",
-            "three": "Diseño de branding, logotipo y material gráfico."
-        }
-    },
-    "featured": {
-        "title": "Proyectos Destacados",
-        "tuneBridge": {
-            "title": "TuneBridge",
-            "description": "TuneBridge es una red social diseñada para músicos. Permite crear perfiles personales y de grupo, compartir publicaciones, chatear y mostrar o descubrir proyectos musicales. La plataforma fomenta la colaboración y la construcción de comunidad entre artistas.\n\nDesarrollada con Vite, React.js, Supabase, Tailwind CSS y React Query, TuneBridge ofrece chat en tiempo real, gestión de proyectos y grupos, e interfaz moderna y responsiva. Los músicos pueden conectar, compartir su trabajo y colaborar en nuevos proyectos en un espacio dedicado."
-        }
-    },
-    "work":{
-        "title": "Experiencia Laboral",
-        "place": {
-            "title": "Vestigio Restauraciones (2024 - Actualidad)",
-            "subject": {
-                "one": "Creación, mantenimiento y diseño del sitio web.",
-                "two": "Gestión de redes sociales y presencia digital.",
-                "three": "Desarrollo de la plataforma en HTML, CSS y JavaScript.",
-                "four": "Configuración y gestión de hosting y correos profesionales."
-            }
-        }        
-    },
-    "languages":{
-        "title": "Idiomas",
-        "one": "Español: Nativo",
-        "two": "Inglés: Avanzado (nivel interactivo, aprendizaje autodidacta)"
-    },
-    "education": {
-        "title": "Educación",
-        "one": "Bachillerato"
+    "others": {
+      "title": "Otros:",
+      "description": "JSON"
     }
+  },
+  "soft": {
+    "title": "Habilidades Blandas",
+    "one": "Aprendizaje autodirigido",
+    "two": "Resolución de problemas",
+    "three": "Adaptabilidad · Pensamiento crítico"
+  },
+  "courses": {
+    "title": "Capacitación y Certificaciones",
+    "see": "Ver certificados",
+    "course-1": {
+      "title": "Desarrollo Web y Django",
+      "subject": {
+        "one": "Django Avanzado: Creación de un blog",
+        "two": "Creación de Aplicaciones Web con Django",
+        "three": "Funciones y Librerías de Django",
+        "four": "Uso de JavaScript y JSON en Django",
+        "five": "Tecnologías Web y Django",
+        "six": "Django for Everybody"
+      }
+    },
+    "course-2": {
+      "title": "Diseño y UX",
+      "subject": {
+        "one": "Fundamentos del Diseño de Experiencia de Usuario (UX)",
+        "two": "Estilizado Avanzado con Diseño Responsivo",
+        "three": "Interactividad con JavaScript",
+        "four": "Introducción a HTML5",
+        "five": "Introducción a CSS3"
+      }
+    },
+    "course-3": {
+      "title": "Programación",
+      "subject": {
+        "one": "Curso Acelerado de Python",
+        "two": "Programación en Java: Arreglos, Listas y Datos Estructurados",
+        "three": "Programación en Java: Crear un Sistema de Recomendación",
+        "four": "Programación en Java: Principios del Diseño de Software",
+        "five": "Programación en Java: Resolución de Problemas con Software"
+      }
+    },
+    "course-4": {
+      "title": "Control de Versiones y Colaboración",
+      "subject": {
+        "one": "Introducción a Git y GitHub"
+      }
+    }
+  },
+  "work": {
+    "title": "Experiencia Laboral",
+    "place": {
+      "title": "Vestigio Restauraciones:",
+      "extra": "Fundador y Desarrollador Web 2024 - Presente",
+      "subject": {
+        "one": "Diseñé y desarrollé el sitio web del negocio (HTML, CSS, JavaScript).",
+        "two": "Gestioné el alojamiento web y la configuración del correo profesional.",
+        "three": "Produje contenido digital para la presencia en redes sociales.",
+        "four": "Desarrollé la identidad visual, incluyendo logotipo y elementos gráficos."
+      }
+    }
+  },
+  "languages": {
+    "title": "Idiomas",
+    "one": "Español: Nativo",
+    "two": "Inglés: Avanzado (nivel interactivo, aprendizaje autodidacta)"
+  },
+  "education": {
+    "title": "Educación",
+    "one": "Bachillerato completo"
+  },
+  "featured": {
+    "title": "Proyectos Destacados",
+    "tuneBridge": {
+      "title": "TuneBridge",
+      "description": "TuneBridge es una red social diseñada para músicos. Los usuarios pueden crear perfiles personales y grupales, compartir publicaciones, chatear y mostrar o descubrir proyectos musicales. La plataforma fomenta la colaboración y la construcción de comunidad entre artistas.\n\nDesarrollada con Vite, React.js, Supabase, Tailwind CSS y React Query, TuneBridge ofrece chat en tiempo real, gestión de proyectos y grupos, y una interfaz moderna y responsiva. Los músicos pueden conectarse fácilmente, compartir su trabajo y colaborar en nuevos proyectos en un espacio online dedicado.",
+      "stack": "Vite · React · Tailwind CSS · Supabase · React Query",
+      "highlights": {
+        "one": "Autenticación y gestión de sesiones",
+        "two": "Mensajería en tiempo real con Supabase Channels",
+        "three": "Sistema de gestión de grupos y proyectos",
+        "four": "Edición personalizada de perfiles e interacción entre usuarios",
+        "five": "Diseño responsivo y experiencia de usuario fluida"
+      },
+      "link": "https://dieosorio.github.io/tunebridge"
+    },
+    "vestigio": {
+      "title": "Vestigio Restauraciones",
+      "description": "Vestigio es el sitio web de mi emprendimiento de restauración de muebles. Presenta mi trabajo mediante galerías fotográficas curadas y descripciones bilingües (inglés y español). El sitio es liviano, responsivo y está personalizado para reflejar la elegancia y el oficio del proceso de restauración.\n\nConstruido con HTML semántico, CSS modular y JavaScript puro, el sitio incluye animaciones sutiles, un diseño adaptable y contenido localizado para una presencia profesional en línea.",
+      "stack": "HTML · CSS · JavaScript · i18n",
+      "highlights": {
+        "one": "Soporte multilingüe (inglés / español)",
+        "two": "Diseño responsivo y accesible",
+        "three": "Galerías para mostrar restauraciones",
+        "four": "Sitio completamente estático alojado en GitHub Pages",
+        "five": "Branding personalizado, logotipo y estilo visual"
+      },
+      "link": "https://dieosorio.github.io/vestigio"
+    }
+  }
 }
