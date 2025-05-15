@@ -25,22 +25,18 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   function updateContent(translations) {
     document.querySelectorAll("[data-i18n]").forEach((element) => {
-      const keys = element.dataset.i18n.split("."); // Dividimos la key, ej: "objectives.title"
-  
-      // Navegamos dinámicamente por el objeto usando dot notation
+      const keys = element.dataset.i18n.split(".");
       let value = translations;
-      keys.forEach((key) => {
-        if (value[key]) {
+      for (let key of keys) {
+        if (value && Object.prototype.hasOwnProperty.call(value, key)) {
           value = value[key];
         } else {
           console.warn(`La clave "${key}" no se encuentra en el objeto translations.`);
           value = null;
-          return;
+          break;
         }
-      });
-  
-      // Si encontramos un valor, lo actualizamos
-      if (value) {
+      }
+      if (value !== null && value !== undefined) {
         element.innerText = value;
       }
     });
